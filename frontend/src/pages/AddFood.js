@@ -38,9 +38,7 @@ const AddFood = () => {
             price:'',
             description:'',
             category:'',
-            image:'',
-            // showModal: false,
-            // message: ''	
+            image:'',	
             id: '',
         }
     );
