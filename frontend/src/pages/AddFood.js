@@ -43,7 +43,7 @@ const AddFood = () => {
         }
     );
 
-   
+   //handle changes
     const handleChange = ({target}) => {
         setNewFood({...newFood, [target.name]: target.value});
     }
