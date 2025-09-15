@@ -8,6 +8,7 @@ import * as Yup from 'yup';
 const Payment = ({ setCartTotal, cartTotal, cartFoodData }) => {
   const navigate = useNavigate();
 
+  // Form validation schema
   const validationSchema = Yup.object().shape({
     cardNumber: Yup.string().required('Card Number is required'),
     date: Yup.string().required('Expiration Date is required'),
