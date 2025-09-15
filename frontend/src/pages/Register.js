@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import Welcome from "../images/loginbanner.jpg";
 const API_BASE = "http://localhost:8080";
 
+// Register component               
 const Register = () => {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");
